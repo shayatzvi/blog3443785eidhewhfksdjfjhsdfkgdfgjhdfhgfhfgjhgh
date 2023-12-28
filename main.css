@@ -1,19 +1,3 @@
-h2 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: chocolate;
-}
-
-h5 {
-    font-family: Arial, Helvetica, sans-serif;
-} 
-
-p {
-    font-family: monospace; color: rgb(44, 13, 88);
-}
-
-
-
-
-
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
     width: 100%;
