@@ -1,111 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-<h1>Hi there and welcome. Please be mindful that this links to another site.
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<HEAD>
+<SCRIPT language="JavaScript">
+<!--hide
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
+var password;
+var richard="techgeekshan";
+
+password=prompt('Please enter your password to view this page!',' ');
+
+if (password==richard)
+  alert('Password Correct! Click OK to enter!');
+else
+   {
+    window.location="blog.html";
     }
 
-    .container {
-      width: 300px;
-      margin: 0 auto;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    h2 {
-      text-align: center;
-    }
-
-    label {
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    input[type="password"] {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 3px;
-      font-family: "Courier New", monospace;
-    }
-
-    .error-message {
-      color: red;
-      margin-top: 10px;
-      font-weight: bold;
-    }
-
-    .submit-button {
-      display: block;
-      width: 100%;
-      padding: 8px;
-      background-color: #5f6c37;
-      color: #fff;
-      border: none;
-      border-radius: 3px;
-      cursor: pointer;
-    }
-
-    .submit-button:hover {
-      background-color: #455027;
-    }
-  </style>
-  <script>
-    function checkCredentials(event) {
-      event.preventDefault(); // Prevent form submission
-
-      var passwordInput = document.getElementById("password");
-      var password = passwordInput.value;
-      var error = document.getElementById("error-message");
-
-      if (password === "") {
-        error.textContent = "password";
-      } else if (password === "password1") {
-        window.open("blog.html", "_blank");
-      } else if (password === "password2") {
-        window.open("blog.html", "_blank");
-      } else if (password === "password3") {
-        window.open("blog.html", "_blank");
-      } else if (password === "password4") {
-        window.open("blog.html", "_blank");
-      } else if (password === "password5") {
-        window.open("blog.html", "_blank");
-      } else if (password === "password6") {
-        window.open("blog.html", "_blank");
-      } else if (password === "password7") {
-        window.open("blog.html", "_blank");
-      } else if (password === "password") {
-        window.open("blog.html", "_blank");
-      } else {
-        error.textContent = "Requested page doesn't exist.";
-      }
-
-      // Clear the password input field
-      passwordInput.value = "";
-    }
-
-    function clearErrorMessage() {
-      var error = document.getElementById("error-message");
-      error.textContent = "";
-    }
-  </script>
-</head>
-<body>
-  <div class="container">
-    <h2>Input Password</h2>
-
-    <form onsubmit="checkCredentials(event)">
-      <label for="password"></label>
-      <input type="password" id="password" required oninput="clearErrorMessage()">
-      <p id="error-message" class="error-message"></p>
-      <button type="submit" class="submit-button">log in</button>
-    </form>
-  </div>
-</body>
-</html>
+//-->
+</SCRIPT>
+</HEAD>
