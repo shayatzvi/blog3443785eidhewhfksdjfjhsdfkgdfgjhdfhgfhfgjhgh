@@ -21,9 +21,18 @@
 
         nav {
             background-color: #444;
-            color: #fff;
             padding: 10px;
             text-align: center;
+        }
+
+        nav button {
+            background-color: #555;
+            color: #fff;
+            padding: 8px 16px;
+            margin: 5px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
         }
 
         section {
@@ -51,9 +60,9 @@
     </header>
 
     <nav>
-        <a href="#">Home</a> |
-        <a href="#">About</a> |
-        <a href="#">Contact</a>
+        <button onclick="window.location.href='blog.html'">Home</button>
+        <button>About</button>
+        <button onclick="window.location.href='submitarticle.html'">Contact</button>
     </nav>
 
     <section>
