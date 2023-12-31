@@ -3,9 +3,7 @@
 <head>
   <title>A static website</title> netlifyIdentity.init();
 
-netlifyIdentity.on('login', user => {
-  window.location.href = '/blog.html';
-});
+
 
   <!-- include the widget -->
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -21,5 +19,7 @@ netlifyIdentity.on('login', user => {
     Simple button that will open the modal.
   -->
   <div data-netlify-identity-button>Login with Netlify Identity</div>
+
+  <script src="identity.js"></script>
 </body>
 </html>
