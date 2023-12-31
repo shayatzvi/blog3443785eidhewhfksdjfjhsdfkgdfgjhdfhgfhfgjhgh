@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>A static website</title> netlifyIdentity.on('login', user => {
-  window.location.href = '/blog.html'; // replace with your page URL
+  <title>A static website</title> netlifyIdentity.init();
+
+netlifyIdentity.on('login', user => {
+  window.location.href = '/blog.html';
 });
 
   <!-- include the widget -->
